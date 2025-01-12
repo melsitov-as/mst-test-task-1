@@ -1,8 +1,10 @@
 @font-face {
   font-family: "Prata Regular";
   font-display: swap;
-  src: url("../fonts/prata-regular.woff2") format("woff2"), url("../fonts/prata-regular.woff") format("woff");
+  src: url("../fonts/prata-regular.woff2") format("woff2"),
+    url("../fonts/prata-regular.woff") format("woff");
 }
+
 .page {
   margin: 0;
   padding: 0;
@@ -10,52 +12,13 @@
 }
 @media (min-width: 1920px) {
   .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
-  }
-}
-
-.main {
-  width: 320px;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  .main {
-    width: 768px;
-  }
-}
-@media (min-width: 1920px) {
-  .main {
-    width: 1920px;
-  }
-}
-
-h1,
-a,
-p,
-span {
-  color: #ffffff;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.page {
-  margin: 0;
-  padding: 0;
-  min-width: 320px;
-}
-@media (min-width: 1920px) {
-  .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
+    background: linear-gradient(
+      to bottom,
+      #222222 0,
+      #222222 1010px,
+      #282829 1010px,
+      #282829 100%
+    );
   }
 }
 
@@ -94,11 +57,6 @@ span {
   overflow: hidden;
 }
 
-@font-face {
-  font-family: "Prata Regular";
-  font-display: swap;
-  src: url("../fonts/prata-regular.woff2") format("woff2"), url("../fonts/prata-regular.woff") format("woff");
-}
 .header {
   width: 320px;
   margin: 0 auto;
@@ -109,7 +67,9 @@ span {
   .header {
     width: 768px;
     padding: 88px 0 90px 0;
-    background: url("../images/header-desktop-bg.jpg") 91% 65%/362px 603px no-repeat, #222222;
+    background: url("../images/header-desktop-bg.jpg") 91% 65%/362px 603px
+        no-repeat,
+      #222222;
   }
 }
 @media (min-width: 1920px) {
@@ -118,7 +78,8 @@ span {
     margin: 0 auto;
     padding: 28px 0 230px 0;
     padding-bottom: 134px;
-    background: url("../images/header-desktop-bg.jpg") right top/763px 1009px no-repeat;
+    background: url("../images/header-desktop-bg.jpg") right top/763px 1009px
+      no-repeat;
   }
 }
 
@@ -152,7 +113,13 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background: linear-gradient(to right, #222222 0, #222222 1145px, transparent 500px, transparent 100%);
+    background: linear-gradient(
+      to right,
+      #222222 0,
+      #222222 1145px,
+      transparent 500px,
+      transparent 100%
+    );
   }
 }
 
@@ -533,7 +500,10 @@ span {
   .advantages {
     width: 768px;
     padding: 0 0 40px 0;
-    background: url("../images/advantages-desktop-bg-1.jpg") 424px 45px/300px 300px no-repeat, url("../images/advantages-desktop-bg-2.jpg") 424px 385px/300px 300px no-repeat #222222;
+    background: url("../images/advantages-desktop-bg-1.jpg") 424px 45px/300px
+        300px no-repeat,
+      url("../images/advantages-desktop-bg-2.jpg") 424px 385px/300px 300px
+        no-repeat #222222;
   }
 }
 @media (min-width: 1920px) {
@@ -541,7 +511,10 @@ span {
     width: 1920px;
     margin: 0 auto;
     padding: 0;
-    background: url("../images/advantages-desktop-bg-1.jpg") 10% 75px/500px 600px no-repeat, url("../images/advantages-desktop-bg-2.jpg") 90% 75px/500px 600px no-repeat;
+    background: url("../images/advantages-desktop-bg-1.jpg") 10% 75px/500px
+        600px no-repeat,
+      url("../images/advantages-desktop-bg-2.jpg") 90% 75px/500px 600px
+        no-repeat;
   }
 }
 
@@ -797,7 +770,8 @@ span {
     padding: 74px 130px 71px;
     box-sizing: border-box;
     border-radius: 30px;
-    background: url("../../images/submit-form-bg-desktop.jpg") 452px -2px no-repeat, #ffffff;
+    background: url("../../images/submit-form-bg-desktop.jpg") 452px -2px no-repeat,
+      #ffffff;
     border: 3px solid #d5c9be;
   }
 }
@@ -1007,11 +981,15 @@ span {
   }
 }
 
-.submit__form-accept-input:checked + .submit__form-accept-label .submit__form-accept-custom-icon {
+.submit__form-accept-input:checked
+  + .submit__form-accept-label
+  .submit__form-accept-custom-icon {
   background: url("../../images/checkbox-on-icon-mobile.svg") 0 0 no-repeat;
 }
 @media (min-width: 768px) {
-  .submit__form-accept-input:checked + .submit__form-accept-label .submit__form-accept-custom-icon {
+  .submit__form-accept-input:checked
+    + .submit__form-accept-label
+    .submit__form-accept-custom-icon {
     background: url("../../images/checkbox-on-icon.svg") 1px 4px no-repeat;
   }
 }
@@ -1424,7 +1402,13 @@ span {
 }
 @media (min-width: 1920px) {
   .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
+    background: linear-gradient(
+      to bottom,
+      #222222 0,
+      #222222 1010px,
+      #282829 1010px,
+      #282829 100%
+    );
   }
 }
 
@@ -1473,7 +1457,10 @@ span {
   .advantages {
     width: 768px;
     padding: 0 0 40px 0;
-    background: url("../images/advantages-desktop-bg-1.jpg") 424px 45px/300px 300px no-repeat, url("../images/advantages-desktop-bg-2.jpg") 424px 385px/300px 300px no-repeat #222222;
+    background: url("../images/advantages-desktop-bg-1.jpg") 424px 45px/300px
+        300px no-repeat,
+      url("../images/advantages-desktop-bg-2.jpg") 424px 385px/300px 300px
+        no-repeat #222222;
   }
 }
 @media (min-width: 1920px) {
@@ -1481,7 +1468,10 @@ span {
     width: 1920px;
     margin: 0 auto;
     padding: 0;
-    background: url("../images/advantages-desktop-bg-1.jpg") 10% 75px/500px 600px no-repeat, url("../images/advantages-desktop-bg-2.jpg") 90% 75px/500px 600px no-repeat;
+    background: url("../images/advantages-desktop-bg-1.jpg") 10% 75px/500px
+        600px no-repeat,
+      url("../images/advantages-desktop-bg-2.jpg") 90% 75px/500px 600px
+        no-repeat;
   }
 }
 
@@ -1662,7 +1652,13 @@ span {
 }
 @media (min-width: 1920px) {
   .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
+    background: linear-gradient(
+      to bottom,
+      #222222 0,
+      #222222 1010px,
+      #282829 1010px,
+      #282829 100%
+    );
   }
 }
 
@@ -2054,7 +2050,13 @@ span {
 }
 @media (min-width: 1920px) {
   .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
+    background: linear-gradient(
+      to bottom,
+      #222222 0,
+      #222222 1010px,
+      #282829 1010px,
+      #282829 100%
+    );
   }
 }
 
@@ -2103,7 +2105,9 @@ span {
   .header {
     width: 768px;
     padding: 88px 0 90px 0;
-    background: url("../images/header-desktop-bg.jpg") 91% 65%/362px 603px no-repeat, #222222;
+    background: url("../images/header-desktop-bg.jpg") 91% 65%/362px 603px
+        no-repeat,
+      #222222;
   }
 }
 @media (min-width: 1920px) {
@@ -2112,7 +2116,8 @@ span {
     margin: 0 auto;
     padding: 28px 0 230px 0;
     padding-bottom: 134px;
-    background: url("../images/header-desktop-bg.jpg") right top/763px 1009px no-repeat;
+    background: url("../images/header-desktop-bg.jpg") right top/763px 1009px
+      no-repeat;
   }
 }
 
@@ -2146,7 +2151,13 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background: linear-gradient(to right, #222222 0, #222222 1145px, transparent 500px, transparent 100%);
+    background: linear-gradient(
+      to right,
+      #222222 0,
+      #222222 1145px,
+      transparent 500px,
+      transparent 100%
+    );
   }
 }
 
@@ -2523,7 +2534,13 @@ span {
 }
 @media (min-width: 1920px) {
   .page {
-    background: linear-gradient(to bottom, #222222 0, #222222 1010px, #282829 1010px, #282829 100%);
+    background: linear-gradient(
+      to bottom,
+      #222222 0,
+      #222222 1010px,
+      #282829 1010px,
+      #282829 100%
+    );
   }
 }
 
@@ -2643,7 +2660,8 @@ span {
     padding: 74px 130px 71px;
     box-sizing: border-box;
     border-radius: 30px;
-    background: url("../../images/submit-form-bg-desktop.jpg") 452px -2px no-repeat, #ffffff;
+    background: url("../../images/submit-form-bg-desktop.jpg") 452px -2px no-repeat,
+      #ffffff;
     border: 3px solid #d5c9be;
   }
 }
@@ -2853,11 +2871,15 @@ span {
   }
 }
 
-.submit__form-accept-input:checked + .submit__form-accept-label .submit__form-accept-custom-icon {
+.submit__form-accept-input:checked
+  + .submit__form-accept-label
+  .submit__form-accept-custom-icon {
   background: url("../../images/checkbox-on-icon-mobile.svg") 0 0 no-repeat;
 }
 @media (min-width: 768px) {
-  .submit__form-accept-input:checked + .submit__form-accept-label .submit__form-accept-custom-icon {
+  .submit__form-accept-input:checked
+    + .submit__form-accept-label
+    .submit__form-accept-custom-icon {
     background: url("../../images/checkbox-on-icon.svg") 1px 4px no-repeat;
   }
 }
